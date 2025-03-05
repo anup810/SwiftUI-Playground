@@ -7,20 +7,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GestureDemo: View {
     var body: some View {
         NavigationStack {
             Form {
                 MagnificationSectionView()
-                Text("Drag")
+                DragSectionView()
                 Text("Rotate")
                 Text("General")
             }
-            .padding()
+            .navigationTitle("Gesture")
+            
         }
     }
 }
 
 #Preview {
-    ContentView()
+    GestureDemo()
 }

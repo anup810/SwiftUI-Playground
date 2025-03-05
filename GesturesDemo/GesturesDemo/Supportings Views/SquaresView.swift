@@ -1,5 +1,5 @@
 //
-//  SqauresView.swift
+//  SquaresView.swift
 //  GesturesDemo
 //
 //  Created by Anup Saud on 2025-03-05.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SqauresView: View {
+struct SquaresView: View {
     let opacity: CGFloat
     init(opacity: CGFloat = 0.85) {
         self.opacity = opacity
@@ -23,5 +23,5 @@ struct SqauresView: View {
 }
 
 #Preview {
-    SqauresView()
+    SquaresView()
 }
