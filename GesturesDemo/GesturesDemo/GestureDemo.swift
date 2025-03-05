@@ -13,8 +13,8 @@ struct GestureDemo: View {
             Form {
                 MagnificationSectionView()
                 DragSectionView()
-                Text("Rotate")
-                Text("General")
+                RotationSectionView()
+                GeneralSectionView()
             }
             .navigationTitle("Gesture")
             
