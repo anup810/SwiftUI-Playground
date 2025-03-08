@@ -23,6 +23,16 @@ struct ContentView: View {
                 NavigationLink("Markdown and Code") {
                     Displaying_Code_with_Markdown()
                 }
+                NavigationLink("Open Url") {
+                    OpenURLDemoView()
+                }
+                NavigationLink(" PluraliaztionExample") {
+                    PluraliaztionExample()
+                }
+                NavigationLink("Text Date Example") {
+                    TextDate()
+                }
+            
                 
             }
             .navigationTitle("Style and Text View")
