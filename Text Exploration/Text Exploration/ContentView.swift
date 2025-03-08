@@ -32,6 +32,9 @@ struct ContentView: View {
                 NavigationLink("Text Date Example") {
                     TextDate()
                 }
+                NavigationLink(" Attributed String Example") {
+                    AttributedStringExample()
+                }
             
                 
             }
