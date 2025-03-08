@@ -19,37 +19,46 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 | **Breath Rotate Wiggle** | Animations using `breathe`, `rotate`, and `wiggle` effects |
 | **Gestures Demo** | Exploring different gestures including drag, rotation, and magnification |
 | **Zoom Transition** | Using `navigationTransition(.zoom)` for animated view transitions |
+| **Text Exploration** | Working with formatted text, Markdown, AttributedString, OpenURL actions, pluralization, and date formatting |
 
 ## 📖 Learning Topics
 
-### 🎛 **State Management**
+### 🟢 State Management
 * `@State` - Local state management
 * `@Binding` - Sharing state between views
 * `@ObservedObject` - Managing state in a class
 * `@EnvironmentObject` - Sharing global state
 
-### ✨ **SwiftUI Animations**
+### 🎨 SwiftUI Animations
 * `rotationEffect` - Rotating views
 * `scaleEffect` - Scaling views
 * Wiggle animations for fun UI effects
+* `withAnimation(.spring())` - Spring-based animations
 
-### 🖼 **Images & Rendering**
+### 🎭 Gesture Handling
+* `DragGesture` - Moving views with user interaction
+* `MagnificationGesture` - Pinch-to-zoom effects
+* `RotationGesture` - Rotating views with gestures
+* Gesture sequencing and combination for complex interactions
+
+### 🖼 Images & Rendering
 * `AsyncImage` - Loading images from the web
 * `mask()` - Clipping images and text with custom shapes
 * `SFSymbols` - Using system icons
 * `clipShape()` - Applying custom shapes to views
 
-### 📌 **Gestures & Interactions**
-* `DragGesture` - Moving views with user interaction
-* `MagnificationGesture` - Pinch-to-zoom effects
-* `RotationGesture` - Rotating views with gestures
-* Gesture combinations for complex interactions
-
-### 🏗 **Layout & UI Design**
+### 🏗 Layout & UI Design
 * `VStack` & `HStack` - Arranging views in vertical & horizontal stacks
 * `LazyVGrid` - Creating flexible grid layouts
 * `ZStack` - Layering views on top of each other
-* `NavigationStack` - Handling navigation and deep links
+* `NavigationStack` with transitions - Handling navigation with animations
+
+### 🔤 Text Handling & Formatting
+* Markdown with `Text(LocalizedStringKey)`
+* `AttributedString` for rich text formatting
+* OpenURL actions with `environment(\.openURL)`
+* Pluralization using `Text(inflect: true)`
+* Date formatting with `.dateTime`, `.relative`, `.offset`, `.timer`
 
 ## Getting Started
 
@@ -63,4 +72,3 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 - Xcode 14.0+
 - iOS 16.0+
 - Swift 5.7+
-
