@@ -20,8 +20,9 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 | **Gestures Demo** | Exploring different gestures including drag, rotation, and magnification |
 | **Zoom Transition** | Using `navigationTransition(.zoom)` for animated view transitions |
 | **Text Exploration** | Working with formatted text, Markdown, AttributedString, OpenURL actions, pluralization, and date formatting |
+| **BlurEffect Using Text Renderer** | Applying blur and wobble effects to text using custom `TextRenderer` and Metal shaders |
 
-## 📖 Learning Topics
+## 📚 Learning Topics
 
 ### 🟢 State Management
 * `@State` - Local state management
@@ -41,19 +42,20 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 * `RotationGesture` - Rotating views with gestures
 * Gesture sequencing and combination for complex interactions
 
-### 🖼 Images & Rendering
+### 🎼 Images & Rendering
 * `AsyncImage` - Loading images from the web
 * `mask()` - Clipping images and text with custom shapes
 * `SFSymbols` - Using system icons
 * `clipShape()` - Applying custom shapes to views
+* Custom `TextRenderer` with blur and distortion shaders
 
-### 🏗 Layout & UI Design
+### 🏢 Layout & UI Design
 * `VStack` & `HStack` - Arranging views in vertical & horizontal stacks
 * `LazyVGrid` - Creating flexible grid layouts
 * `ZStack` - Layering views on top of each other
 * `NavigationStack` with transitions - Handling navigation with animations
 
-### 🔤 Text Handling & Formatting
+### 🔢 Text Handling & Formatting
 * Markdown with `Text(LocalizedStringKey)`
 * `AttributedString` for rich text formatting
 * OpenURL actions with `environment(\.openURL)`
@@ -69,6 +71,6 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 
 ## Requirements
 
-- Xcode 14.0+
-- iOS 16.0+
-- Swift 5.7+
+* Xcode 14.0+
+* iOS 16.0+
+* Swift 5.7+
