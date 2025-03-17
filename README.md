@@ -21,6 +21,10 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 | **Zoom Transition** | Using `navigationTransition(.zoom)` for animated view transitions |
 | **Text Exploration** | Working with formatted text, Markdown, AttributedString, OpenURL actions, pluralization, and date formatting |
 | **BlurEffect Using Text Renderer** | Applying blur and wobble effects to text using custom `TextRenderer` and Metal shaders |
+| **Gradient Indicator** | Creating a progress indicator with a gradient effect |
+| **Gradient Border Shadow** | Applying a gradient border and shadow using custom modifiers |
+| **Left Center Right Alignment** | Using custom `ViewModifier` extensions to align text in left, center, or right positions |
+| **Toast Demo** | Implementing a custom toast notification using `ViewModifier` |
 
 ## 📚 Learning Topics
 
@@ -54,6 +58,7 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 * `LazyVGrid` - Creating flexible grid layouts
 * `ZStack` - Layering views on top of each other
 * `NavigationStack` with transitions - Handling navigation with animations
+* `ViewModifier` for custom text alignment (Left, Center, Right)
 
 ### 🔢 Text Handling & Formatting
 * Markdown with `Text(LocalizedStringKey)`
@@ -61,16 +66,29 @@ This repository contains **various SwiftUI practice projects**, each focusing on
 * OpenURL actions with `environment(\.openURL)`
 * Pluralization using `Text(inflect: true)`
 * Date formatting with `.dateTime`, `.relative`, `.offset`, `.timer`
+* Custom toast notifications using `ViewModifier`
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone this repository
+   ```bash
+   git clone https://github.com/anup810/SwiftUI-Playground
+   ```
 2. Open the project in Xcode
+   ```bash
+   cd SwiftUI-Playground
+   open SwiftUI-Playground.xcodeproj
+   ```
 3. Navigate to the specific example you want to explore
 4. Run the example on the simulator or a physical device
 
-## Requirements
+## 📋 Requirements
 
 * Xcode 14.0+
 * iOS 16.0+
 * Swift 5.7+
+
+## 🙏 Acknowledgments
+
+* Apple's SwiftUI documentation
+* The SwiftUI community for inspiration and examples
